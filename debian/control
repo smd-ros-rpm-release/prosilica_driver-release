@@ -1,0 +1,12 @@
+Source: ros-indigo-prosilica-camera
+Section: misc
+Priority: extra
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-camera-calibration-parsers, ros-indigo-catkin, ros-indigo-diagnostic-msgs, ros-indigo-diagnostic-updater, ros-indigo-driver-base, ros-indigo-dynamic-reconfigure, ros-indigo-image-transport, ros-indigo-polled-camera, ros-indigo-prosilica-gige-sdk, ros-indigo-rosconsole, ros-indigo-roscpp, ros-indigo-self-test, ros-indigo-sensor-msgs, ros-indigo-std-msgs
+Homepage: http://www.ros.org/wiki/prosilica_camera
+Standards-Version: 3.9.2
+
+Package: ros-indigo-prosilica-camera
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-camera-calibration-parsers, ros-indigo-diagnostic-msgs, ros-indigo-diagnostic-updater, ros-indigo-driver-base, ros-indigo-dynamic-reconfigure, ros-indigo-image-transport, ros-indigo-polled-camera, ros-indigo-prosilica-gige-sdk, ros-indigo-roscpp, ros-indigo-self-test, ros-indigo-sensor-msgs, ros-indigo-std-msgs
+Description: A ROS driver node for AVT/Prosilica Gigabit Ethernet (GigE) cameras.
